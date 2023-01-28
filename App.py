@@ -11,8 +11,8 @@ import streamlit as st
 st.header('Billionaire Dataset')
 
 
-file = r'C:\Users\Lenovo\Desktop\Class 1 Python\Billionaire.csv'
-df = pd.read_csv(file)
+#file = r'C:\Users\Lenovo\Desktop\Class 1 Python\Billionaire.csv'
+df = pd.read_csv(Billionaire.csv)
 
 #df = st.file_uploader(lebel= 'Upload Your File', type='csv')
 #button = st.button('Upload')
