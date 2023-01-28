@@ -54,7 +54,7 @@ sources = sorted(subset_country['Source'].unique())
 #display multiselect option on source
 selected_source = col1.multiselect('Select Source of Income', sources)
 #subset on selected source
-subset_source = subset_country[subset_country['Source'].isin[selected_source]
+subset_source = subset_country[subset_country['Source'].isin(selected_source)]
 
 #Column 2
 main_string = '{} - Billionaires'.format(selected_country)
